@@ -597,6 +597,9 @@
   .stats-main{grid-template-columns:repeat(4,1fr)}
   .stats-main .fig-unit{font-size:20px;font-weight:800;color:#ffffff}
   .stats-main .stat.c .fig-unit{color:var(--acento)}
+  /* Brand Lift: mismo tratamiento que la fila principal (unidad grande y legible) */
+  .stats-brand .fig-unit{font-size:20px;font-weight:800;color:#ffffff}
+  .stats-brand .stat.bl-hot .fig-unit{color:var(--acento)}
   .stat-src{margin:14px 0 0;font-size:12.5px;color:var(--tinta-pie)}
   .stat .t{margin-top:14px;color:var(--tinta-media);font-size:15.5px;line-height:1.5}
   .stat .t strong{color:var(--tinta)}
@@ -1579,7 +1582,7 @@
       <p class="chart-title">El efecto en la marca</p>
       <p class="chart-sub">Brand Lift Study: expuestos frente a no expuestos.</p>
       <p class="brand-intro"><strong>Y el recuerdo también se movió.</strong> Además del tráfico, hicimos un estudio de investigación de Brand Lift: encuestamos a usuarios expuestos y no expuestos a la campaña. Los resultados fueron muy buenos.</p>
-      <div class="stats" style="margin-top:26px">
+      <div class="stats stats-brand" style="margin-top:26px">
         <article class="stat bl-hot">
           <div class="n"><span class="count" data-target="60" data-prefix="+">+0</span></div>
           <div class="fig-unit">%</div>
